@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zhouxiaojia Yu</title>
+    <link rel="stylesheet" type="text/css" href="Login.css">
+    <style>
+
+        .nav{
+            height: 60px;
+            background: Linear-gradient(snow,antiquewhite);
+        }
+        .navlist li{
+            float:left;
+            height:80px;
+            width: 130px;
+            line-height: 60px;
+            text-align: center;
+            list-style: none;
+        }
+        .navlist a {
+            color: black;
+            display: block;
+        }
+        .navlist {
+            width: 800px;
+            margin: auto;
+        }
+        .navlist a:hover{
+            background: cadetblue;
+        }
+        .text2{
+            float:left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav">
+    <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="view1.html">Resume</a></li>
+        <li><a href="view2.html">Projects</a></li>
+        <li> <a href="view3.html">Contact</a></li>
+        <li><a href="view4.html">Social</a></li>
+        <li><a href="view5.html">Admin</a></li>
+    </ul>
+</div>
+
+<div class="text2">
+<h2>Contact Forms</h2>
+<form>
+    <label for="text1">First name:</label><br>
+    <input type="text" id="text1" placeholder="Enter first name" name="text1"><br>
+
+    <label for="text2">Last name:</label><br>
+    <input type="text" id="text2" placeholder="Enter last name" name="text2"><br><br>
+
+    <label for="Email">Email:</label><br>
+    <input type="Email" id="Email" placeholder="email" name="Eamil"><br><br>
+
+    <label for="tel">Phone number:</label><br>
+    <input type="tel" id="tel" placeholder="Enter phone number" name="tel"><br><br>
+
+    <textarea rows = "5" cols="50" name="description" placeholder="Enter description"></textarea>
+
+
+    <br>
+    <br>
+
+    <!-- checkbox -->
+    <input type="checkbox" name="Professor" value="on">Professor
+    <input type="checkbox" name="Student" value="on"> Student
+
+    <br>
+    <!-- Select -->
+    <select name="dropdown" >
+        <option value="Software" selected>Software Engineering</option>
+    </select>
+    <br>
+
+    <br>
+
+    <button class="but" type="submit">Submit</button>
+    <p><a href="index.html">Back to Homepage</a></p>
+</form>
+</div>
+
+
+</body>
+</html>
